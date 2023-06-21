@@ -12,7 +12,7 @@ pipeline{
         stage('Build'){
             steps{
                 echo 'this is the Build job'
-                sh ‘npm install'
+                sh ‘npm instal'
             }
         }
         stage('Test'){
